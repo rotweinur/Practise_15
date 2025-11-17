@@ -1,5 +1,5 @@
 def count(n: int) -> int:
-    """Return the number of decimal digits in a non-negative integer n.
+    """Calculates how many digits are in the decimal representation of the non-negative number n
 
     :param n: non-negative integer
     :return: number of decimal digits in n
