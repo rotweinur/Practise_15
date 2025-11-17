@@ -1,5 +1,5 @@
 def pownum(a: float|int, n: int) -> float|int:
-    """Elevates the real number a to the natural power n.
+    """Raises the real number a to the power of the natural number n.
 
     :param a: base (float or int)
     :param n: exponent (natural number or 0)
