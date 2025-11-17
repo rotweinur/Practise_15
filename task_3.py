@@ -1,5 +1,5 @@
 def progress(a1: float|int, r: float|int, n: int) -> float|int:
-    """Return the n-th term of an arithmetic progression.
+    """Returns the n-th term of an arithmetic sequence
 
     :param a1: first term of the progression
     :param r: common difference
