@@ -14,8 +14,3 @@ def numbers(x: int) -> None:
     if x // 10 != 0:
         numbers(x // 10)
 
-
-if __name__ == "__main__":
-    numbers(12345)
-    print("---")
-    numbers(7)
