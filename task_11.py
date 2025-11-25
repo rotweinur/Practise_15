@@ -24,7 +24,3 @@ def ind_maxlist(a: list) -> int:
     return 0 if a[0] >= a[idx_tail] else idx_tail
 
 
-if __name__ == "__main__":
-    print(ind_maxlist([1, 5, 3, 9, 2]))
-    print(ind_maxlist([-4, -1, -7]))
-    print(ind_maxlist([10]))
