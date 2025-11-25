@@ -17,8 +17,3 @@ def nod(a: int, b: int) -> int:
 
     return nod(b, a % b)
 
-
-if __name__ == "__main__":
-    print(nod(24, 18))
-    print(nod(15, 5))
-    print(nod(17, 31))
