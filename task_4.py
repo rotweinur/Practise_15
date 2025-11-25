@@ -20,7 +20,3 @@ def sum_progress(a1: float|int, r: float|int, n: int) -> float|int:
     return sum_progress(a1, r, n - 1) + last_term
 
 
-if __name__ == "__main__":
-    print(sum_progress(3, 2, 1))
-    print(sum_progress(3, 2, 5))
-    print(sum_progress(-1, 0.5, 4))
