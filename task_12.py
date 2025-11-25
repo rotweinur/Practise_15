@@ -23,7 +23,4 @@ def search(a: list, x: int) -> int:
     return search(a[1:], x)
 
 
-if __name__ == "__main__":
-    print(search([1, 3, 5, 7], 5))
-    print(search([1, 3, 5, 7], 2))
-    print(search([], 0))
+
