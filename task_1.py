@@ -24,7 +24,4 @@ def pownum(a: float|int, n: int) -> float|int:
     return a * pownum(a, n - 1)
 
 
-if __name__ == "__main__":
-    print(pownum(2, 10))  
-    print(pownum(5, 0))     
-    print(pownum(2.5, 3))   
+
