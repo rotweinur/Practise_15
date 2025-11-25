@@ -18,8 +18,4 @@ def combin(n: int, k: int) -> int:
     return combin(n - 1, k - 1) + combin(n - 1, k)
 
 
-if __name__ == "__main__":
-    print(combin(5, 2))
-    print(combin(6, 3))
-    print(combin(10, 0))
-    print(combin(10, 10))
+
