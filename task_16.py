@@ -20,9 +20,3 @@ def ten_to_n(x: int, n: int) -> str:
         return ""
     return ten_to_n(x // n, n) + digits[x % n]
 
-
-if __name__ == "__main__":
-    print(ten_to_n(255, 2))
-    print(ten_to_n(255, 8))
-    print(ten_to_n(255, 16))
-    print(ten_to_n(123, 5))
