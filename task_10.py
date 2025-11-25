@@ -22,6 +22,4 @@ def maxlist(a: list) -> int:
     return a[0] if a[0] > tail_max else tail_max
 
 
-if __name__ == "__main__":
-    print(maxlist([1, 5, 3, 9, 2]))
-    print(maxlist([-4, -1, -7]))
+
