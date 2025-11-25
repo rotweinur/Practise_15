@@ -28,7 +28,3 @@ def odd_list(a: list, n: int) -> list:
     return rest
 
 
-if __name__ == "__main__":
-    print(odd_list([1, 2, 3, 4, 5, 6], 6))
-    print(odd_list([7, 11, 14, 20], 4))
-    print(odd_list([1, 3, 5], 3))
