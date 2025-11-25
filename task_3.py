@@ -19,7 +19,3 @@ def progress(a1: float|int, r: float|int, n: int) -> float|int:
     return progress(a1, r, n - 1) + r
 
 
-if __name__ == "__main__":
-    print(progress(3, 2, 1))
-    print(progress(3, -2, 5))
-    print(progress(-1, 0.5, 4))
