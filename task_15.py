@@ -16,8 +16,3 @@ def ten_to_bin(x: int) -> str:
     return ten_to_bin(x // 2) + str(x % 2)
 
 
-if __name__ == "__main__":
-    print(ten_to_bin(1))
-    print(ten_to_bin(5))
-    print(ten_to_bin(10))
-    print(ten_to_bin(255))
