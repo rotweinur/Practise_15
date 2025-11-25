@@ -17,8 +17,4 @@ def fib(k: int) -> int:
     return fib(k - 1) + fib(k - 2)
 
 
-if __name__ == "__main__":
-    print(fib(0))
-    print(fib(1))
-    print(fib(7))
-    print(fib(10))
+
