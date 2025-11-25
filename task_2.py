@@ -17,8 +17,4 @@ def count(n: int) -> int:
     return 1 + count(n // 10)
 
 
-if __name__ == "__main__":
-    print(count(0))
-    print(count(5))
-    print(count(42))
-    print(count(1234567890))  
+
