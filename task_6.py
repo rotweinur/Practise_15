@@ -23,9 +23,4 @@ def degree5(n: int) -> int:
     return sub + 1
 
 
-if __name__ == "__main__":
-    print(degree5(1))
-    print(degree5(5))
-    print(degree5(25))
-    print(degree5(125))
-    print(degree5(30))
+
