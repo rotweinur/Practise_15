@@ -30,10 +30,3 @@ def function1(x: int) -> int:
 
     return 1 if _is_prime(x, x - 1) else 0
 
-
-if __name__ == "__main__":
-    print(function1(1))
-    print(function1(2))
-    print(function1(7))
-    print(function1(10))
-    print(function1(17))
