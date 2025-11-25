@@ -17,8 +17,3 @@ def mod_number(a: int, b: int) -> int:
 
     return mod_number(a - b, b)
 
-
-if __name__ == "__main__":
-    print(mod_number(17, 5))
-    print(mod_number(10, 3))
-    print(mod_number(25, 25))
